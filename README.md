@@ -30,11 +30,7 @@
 
 <!--## Algorithm
 ![image](https://github.com/user-attachments/assets/77025262-a5e4-41d6-9166-d2f910baef88)-->
-
-
-
-## DEMO
-- Current demo is availabled at [GBC](http://elucidator.cn/gbc-demo/)  
+ 
 
 ## USAGE INSTRUCTIONS  
 ### Environment Setup
@@ -100,16 +96,6 @@ We are thankful for the work below,
 [DeOldify](https://github.com/jantic/DeOldify)  
 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
 
-## Cite
-If you find GBC useful for your work please cite:
-```
-@article{
-  author    = {Jiecheng Liao, Shi He, Yichen Yuan, Hui Zhang},
-  title     = {GBC: Gaussian-Based-Colorization-and-Super-Resolution-for-3D-Reconstruction},
-  conference   = {VRCAI},
-  year      = {2024},
-}
-```
 
 # Website License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
