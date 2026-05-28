@@ -1,7 +1,6 @@
 # GBC: Gaussian-Based-Colorization-and-Super-Resolution-for-3D-Reconstruction
 ## Overview  
 - Our project, GBC, takes low quality monochrome video as input and generates a high resoluted, colored 3D scene using following advanced techniques.
-- [[Paper]](https://doi.org/10.1145/3703619.3706039)   [[DEMO]](http://elucidator.cn/gbc-demo/)  \
   [[ModelScope]](https://www.modelscope.cn/models/XRailgunX/Gaussian-Based-Colorization-and-Super-Resolution-for-3D-Reconstruction)
 ## pipeline  
 ![main figure](main_web.jpg)
@@ -35,9 +34,7 @@
 ## USAGE INSTRUCTIONS  
 ### Environment Setup
 1. Download this repository:
-```bash
-git clone https://github.com/ffftuanxxx/GBC.git
-```
+
 2. Install dependencies:
 - 2.1
 ```bash
@@ -55,15 +52,10 @@ Install:
 ```bash
 pip install modelscope
 ```
-`method 1`: Download by SDK:
-```bash
-from modelscope import snapshot_download
-model_dir = snapshot_download('XRailgunX/Gaussian-Based-Colorization-and-Super-Resolution-for-3D-Reconstruction')
-```
-`method 2`: Download by GIT:
-```bash
-git clone https://www.modelscope.cn/XRailgunX/Gaussian-Based-Colorization-and-Super-Resolution-for-3D-Reconstruction.git
-```
+`method 1`: Download by SDK
+
+`method 2`: Download by GIT
+
 4. Run the pipeline
 ```bash
 # Please make sure you have put the model files on the right position and set the correct parameters'
@@ -78,17 +70,6 @@ Run main.py to start whole process.-->
 ## Datasets
 - Part of datasets are available at `modelscope`
 
-`Method 1.` SDK
-```bash
-from modelscope.msdatasets import MsDataset
-ds =  MsDataset.load('XRailgunX/GBC-dataset')
-```
-
-`Method 2.` GIT
-```bash
-git lfs install
-git clone https://www.modelscope.cn/datasets/XRailgunX/GBC-dataset.git
-```
 
 ## Links  
 We are thankful for the work below,  
